@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+    .navbar-brand {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+    .btn-outline-danger {
+      border-width: 2px;
+    }
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+    }
+    .hero h3 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+    }
+
+
+.logo-img {
+  height: 60px;   /* make logo bigger */
+  width: auto;    /* keep proportions */
+}
+
+.nav-links .nav-link {
+  margin: 0 12px; /* add spacing between links */
+  font-size: 1.1rem; /* slightly larger text */
+  font-weight: 500;  /* make them stand out */
+}
+
+.btn .bi {
+  font-size: 1.2rem; /* tweak size */
+  vertical-align: middle; /* keeps it aligned with text */
+}
+
+.hero h1 {
+  font-size: 3.5rem;       /* bigger headline */
+  font-weight: 700;        /* bold */
+  line-height: 1.2;        /* tighter line spacing */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #555;             /* softer gray for contrast */
+}
+
+/* Hover effect for View Plans button */
+.btn-outline-danger:hover {
+  color: #000 !important;       /* text turns black */
+  border-color: #000 !important;/* border turns black */
+  background-color: transparent;/* keep background transparent */
+}
+
+.hero-title {
+  font-size: 3.5rem;       /* large headline */
+  font-weight: 700;        /* bold */
+  line-height: 1.2;        /* tighter spacing */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Hover effect for View Plans button */
+.view-plans-btn:hover {
+  color: #000 !important;        /* text turns black */
+  border-color: #000 !important; /* border turns black */
+  background-color: transparent; /* keep transparent background */
+  transition: all 0.3s ease;     /* smooth fade effect */
+}
+
+.broadcast-section h2 {
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+
+.broadcast-section ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.broadcast-section {
+  padding-top: 30px;   /* move section closer to top */
+  padding-bottom: 50px; /* keep some breathing room below */
+}
